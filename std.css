@@ -37,5 +37,5 @@ body
 		max-width: 1180px;
 		display: grid;
 		grid-gap: 20px;
-		grid-template-columns: repeat(6,2fr);
+		
 }
