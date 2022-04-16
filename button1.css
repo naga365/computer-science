@@ -121,11 +121,11 @@ span:nth-child(2) {
    width:auto;
    height:100%;
   }
-     @media(min-aspect-ratio:16/9){
+      @media(min-aspect-ratio:16/9){
   .back{
    width:auto;
    height:100%;
+   left:100%;
   }
-      
   
 
