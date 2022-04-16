@@ -108,7 +108,6 @@ span:nth-child(2) {
  position:absolute;
  right:0;
  bottom:0;
- float:left;
  z-index:-1;
 }
  @media(min-aspect-ratio:16/9){
