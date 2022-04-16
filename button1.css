@@ -121,7 +121,7 @@ span:nth-child(2) {
    width:auto;
    height:100%;
   }
-   video {
+   .back {
     position: fixed;
     right: 0;
     bottom: 0;
