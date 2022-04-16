@@ -104,22 +104,5 @@ span:nth-child(2) {
   width: 30%;
   height: 80px;
 }
-.back{
- position:absolute;
- right:0;
- bottom:0;
- z-index:-1;
-}
- @media(min-aspect-ratio:16/9){
-  .back{
-   width:100%;
-   height:auto;
-   
-  }
-  @media(min-aspect-ratio:16/9){
-  .back{
-   width:auto;
-   height:100%;
-  }
-      
+  
 
