@@ -40,3 +40,28 @@ background:no repeat;
 		grid-gap: 20px;
 		
 }
+.back{
+ position:absolute;
+ right:0;
+ bottom:0;
+ z-index:-1;
+}
+ @media(min-aspect-ratio:16/9){
+  .back{
+   width:100%;
+   height:auto;
+   
+  }
+  @media(min-aspect-ratio:16/9){
+  .back{
+   width:auto;
+   height:100%;
+  }
+   .back {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    transform: translateX(calc((100% - 100vw) / 2));
+}
